@@ -1,3 +1,13 @@
 
 
-//: https://github.com/HeavyMetalCookies/BASIC_CSS_HTML.git
+    ( Where copy of your project lives on GITHUB.com )
+    https://github.com/HeavyMetalCookies/BASIC_CSS_HTML.git
+    
+    ( Where copy of your project lives on HEROKU.com )
+    https://git.heroku.com/basic-css-html-jmim.git
+
+    ( Your heroku website url. The url you are going to give to people. )
+    https://basic-css-html-jmim.herokuapp.com/ 
+    
+    
+    basic-css-html-jmim
