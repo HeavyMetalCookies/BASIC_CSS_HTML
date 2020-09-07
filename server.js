@@ -1,18 +1,14 @@
 
 
+const http = require("http"); 
 
-const http = require( "http" );
+function requestHandlerFunction(server_req, server_res){ 
 
-//: Handles incomming requests from the web:
-function requestHandlerFunction( server_req , server_res ){
+    server_res.write("hello world"); 
+    server_res.end(); 
 
-    server_res.write("hello world");
-    server_res.end();
+}; 
 
-};
+var server = http.createServer( requestHandlerFunction ); 
 
-//: Constructs your server object:
-var server = http.createServer( requestHandlerFunction );
-
-//: Start up the server and listen for internet traffic:
-server.listen( process.env.PORT );
+server.listen(process.env.PORT);
